@@ -11,7 +11,7 @@ Training and evaluation of efficientnet-b5 u-net model pre-trained on ImageNet d
 | efficientnet-b5 (u-net) | CenterLoss | 6126, 8:2 split, testing last 100 images | 0.7978 |
 
 <p align="center">
-  <img src="images/prediction0.png" width="500">
+  <img src="images/prediction0.png" width="1000">
 </p>
 
 ## Set-up:
