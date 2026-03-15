@@ -1,0 +1,69 @@
+Randomness locked with seed: 42
+Loaded config file.
+Datasets loaded: Train images: 4900, Test images: 1101, Val images: 1226.
+Training Epoch 1/50: 100%|████████████████████| 307/307 [10:42<00:00,  2.09s/it]
+Epoch 1/50, Training IOU: 0.3016, Training Loss: 0.7744
+Saving best model, epoch 1 with IOU: 0.4734...
+Epoch 1/50, Validation IOU: 0.4734, Validation Loss: 0.4123
+Training Epoch 2/50: 100%|████████████████████| 307/307 [11:49<00:00,  2.31s/it]
+Epoch 2/50, Training IOU: 0.4516, Training Loss: 0.4284
+Saving best model, epoch 2 with IOU: 0.5794...
+Epoch 2/50, Validation IOU: 0.5794, Validation Loss: 0.3566
+Training Epoch 3/50: 100%|████████████████████| 307/307 [10:51<00:00,  2.12s/it]
+Epoch 3/50, Training IOU: 0.4821, Training Loss: 0.4015
+Epoch 3/50, Validation IOU: 0.5452, Validation Loss: 0.3470
+Training Epoch 4/50: 100%|████████████████████| 307/307 [08:30<00:00,  1.66s/it]
+Epoch 4/50, Training IOU: 0.5075, Training Loss: 0.3872
+Saving best model, epoch 4 with IOU: 0.5840...
+Epoch 4/50, Validation IOU: 0.5840, Validation Loss: 0.3375
+Training Epoch 5/50: 100%|████████████████████| 307/307 [11:43<00:00,  2.29s/it]
+Epoch 5/50, Training IOU: 0.5183, Training Loss: 0.3797
+Saving best model, epoch 5 with IOU: 0.6885...
+Epoch 5/50, Validation IOU: 0.6885, Validation Loss: 0.3132
+Training Epoch 6/50: 100%|████████████████████| 307/307 [11:01<00:00,  2.16s/it]
+Epoch 6/50, Training IOU: 0.5247, Training Loss: 0.3744
+Epoch 6/50, Validation IOU: 0.5924, Validation Loss: 0.3173
+Training Epoch 7/50: 100%|████████████████████| 307/307 [11:20<00:00,  2.22s/it]
+Epoch 7/50, Training IOU: 0.5433, Training Loss: 0.3638
+Saving best model, epoch 7 with IOU: 0.7015...
+Epoch 7/50, Validation IOU: 0.7015, Validation Loss: 0.3250
+Training Epoch 8/50: 100%|████████████████████| 307/307 [11:03<00:00,  2.16s/it]
+Epoch 8/50, Training IOU: 0.5508, Training Loss: 0.3540
+Epoch 8/50, Validation IOU: 0.6465, Validation Loss: 0.3064
+Training Epoch 9/50: 100%|████████████████████| 307/307 [11:36<00:00,  2.27s/it]
+Epoch 9/50, Training IOU: 0.5717, Training Loss: 0.3488
+Epoch 9/50, Validation IOU: 0.6730, Validation Loss: 0.3219
+Training Epoch 10/50: 100%|███████████████████| 307/307 [11:29<00:00,  2.25s/it]
+Epoch 10/50, Training IOU: 0.5760, Training Loss: 0.3434
+Saving best model, epoch 10 with IOU: 0.7960...
+Epoch 10/50, Validation IOU: 0.7960, Validation Loss: 0.3208
+Training Epoch 11/50: 100%|███████████████████| 307/307 [10:28<00:00,  2.05s/it]
+Epoch 11/50, Training IOU: 0.5850, Training Loss: 0.3429
+Epoch 11/50, Validation IOU: 0.7268, Validation Loss: 0.3037
+Training Epoch 12/50: 100%|███████████████████| 307/307 [11:52<00:00,  2.32s/it]
+Epoch 12/50, Training IOU: 0.5771, Training Loss: 0.3417
+Epoch 12/50, Validation IOU: 0.7533, Validation Loss: 0.2954
+Training Epoch 13/50: 100%|███████████████████| 307/307 [11:38<00:00,  2.28s/it]
+Epoch 13/50, Training IOU: 0.5839, Training Loss: 0.3363
+Epoch 13/50, Validation IOU: 0.6877, Validation Loss: 0.2918
+Training Epoch 14/50: 100%|███████████████████| 307/307 [11:54<00:00,  2.33s/it]
+Epoch 14/50, Training IOU: 0.5905, Training Loss: 0.3337
+Epoch 14/50, Validation IOU: 0.6970, Validation Loss: 0.3081
+Training Epoch 15/50: 100%|███████████████████| 307/307 [11:09<00:00,  2.18s/it]
+Epoch 15/50, Training IOU: 0.5992, Training Loss: 0.3340
+Epoch 15/50, Validation IOU: 0.7630, Validation Loss: 0.2972
+Training Epoch 16/50: 100%|███████████████████| 307/307 [10:18<00:00,  2.02s/it]
+Epoch 16/50, Training IOU: 0.6074, Training Loss: 0.3258
+Epoch 16/50, Validation IOU: 0.7550, Validation Loss: 0.2957
+Training Epoch 17/50: 100%|███████████████████| 307/307 [11:34<00:00,  2.26s/it]
+Epoch 17/50, Training IOU: 0.6021, Training Loss: 0.3266
+Epoch 17/50, Validation IOU: 0.7554, Validation Loss: 0.2912
+Training Epoch 18/50: 100%|███████████████████| 307/307 [09:24<00:00,  1.84s/it]
+Epoch 18/50, Training IOU: 0.5973, Training Loss: 0.3292
+Epoch 18/50, Validation IOU: 0.7047, Validation Loss: 0.2876
+Training Epoch 19/50: 100%|███████████████████| 307/307 [11:25<00:00,  2.23s/it]
+Epoch 19/50, Training IOU: 0.6091, Training Loss: 0.3234
+Epoch 19/50, Validation IOU: 0.7208, Validation Loss: 0.2960
+Training Epoch 20/50: 100%|███████████████████| 307/307 [10:42<00:00,  2.09s/it]
+Epoch 20/50, Training IOU: 0.6108, Training Loss: 0.3189
+Epoch 20/50, Validation IOU: 0.7389, Validation Loss: 0.2833

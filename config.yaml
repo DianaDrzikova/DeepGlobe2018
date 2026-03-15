@@ -1,0 +1,31 @@
+dataset:
+  path: "deepglobe-road-extraction-dataset/versions/2"
+  image_size: 256
+  train_split_size: 0.8
+  train_size: "full" # "full" "partial"
+
+training:
+  continue_training: True
+  num_epochs: 50
+  batch_size: 16
+  learning_rate: 0.001
+  optimizer: "Adam"
+  loss_function: "MyDiceLoss" # MyDiceLoss, BCEDiceLoss
+
+eval:
+  labels: True
+  model_path: "checkpoints" 
+
+#MODEL_PATH = "checkpoints/final_model/dice" 
+#MODEL_PATH = "checkpoints/architecture/efficientnet_b5" # Average IoU on test set: 0.5390
+#MODEL_PATH = "checkpoints/architecture/resnet34" #Average IoU on test set: 0.4867
+#MODEL_PATH = "checkpoints/testing_architecture/deeplabv3" # Average IoU on test set: 0.1280
+
+model:
+  name: "unet" # deeplabv3, unet
+  encoder_name: efficientnet-b5 # resnet34, "efficientnet-b5"
+  encoder_weights: "imagenet"
+  activation: 'sigmoid' # sigmoid, softmax, null
+  hidden_layers: 64
+  in_channels: 3
+  classes: 1
